@@ -1,0 +1,225 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+nav {
+  position: fixed;
+  z-index: 10;
+  background-color: #000f08;
+  display: flex;
+  flex: 100%;
+  flex-direction: row;
+  width: 100%;
+  height: 60px;
+}
+nav ul {
+  padding: 20px;
+}
+nav ul li {
+  display: inline;
+  padding: 10px;
+  margin: 10px;
+  background-color: #000f08;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+nav a {
+  width: 4%;
+  height: auto;
+  margin: 10px;
+  padding: 0px;
+}
+nav a svg {
+  padding: 5px;
+  margin-left: 30px;
+  width: 60%;
+  height: auto;
+  fill: #fff !important;
+}
+
+.heroSection {
+  position: relative;
+}
+.heroSection .content {
+  display: flex;
+  flex: 100%;
+  flex-direction: column;
+}
+.heroSection .content img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 1;
+}
+.heroSection .content h1 {
+  z-index: 2;
+  margin: 0 auto;
+  margin-top: 10%;
+  margin-right: 10%;
+  color: #fff;
+  text-align: right;
+  max-width: 700px;
+  letter-spacing: 3px;
+  text-shadow: 0px 3px 6px #00000080;
+  font-weight: 900;
+  font-size: xx-large;
+}
+.heroSection .content h2 {
+  z-index: 2;
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-right: 10%;
+  color: #fff;
+  text-align: right;
+  max-width: 600px;
+  text-shadow: 0px 3px 6px #00000080;
+  font-weight: 100;
+}
+
+.location {
+  margin-top: 20%;
+  display: flex;
+  flex: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.location img {
+  width: 20%;
+  height: auto;
+  margin-bottom: 30px;
+}
+.location h2 {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.location p {
+  max-width: 400px;
+  text-align: center;
+}
+
+.nextMeet {
+  display: flex;
+  flex: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 80px;
+  background-color: #a4452c;
+}
+.nextMeet img {
+  width: 15%;
+  height: auto;
+}
+.nextMeet .text {
+  max-width: 450px;
+  margin-left: 30px;
+}
+.nextMeet .text h2 {
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+.nextMeet .text h3 {
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.nextMeet .text h4 {
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 200;
+  font-size: medium;
+}
+.nextMeet .text h5 {
+  color: #fff;
+  font-weight: 100;
+  font-size: x-small;
+}
+.nextMeet .text p {
+  color: #fff;
+  font-weight: 100;
+}
+
+.prevEvents {
+  margin: 50px;
+  display: flex;
+  flex: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.prevEvents h2 {
+  margin-bottom: 20px;
+  font-size: x-large;
+}
+.prevEvents .events {
+  display: flex;
+  flex: 100%;
+  flex-direction: row;
+}
+.prevEvents .events div {
+  text-align: center;
+}
+.prevEvents .events div img {
+  width: 60%;
+  height: auto;
+  border-radius: 5px;
+}
+.prevEvents .events div h3 {
+  margin-top: 20px;
+  font-size: medium;
+}
+.prevEvents .events div a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: #000f08;
+  text-align: center;
+  padding: 30px;
+}
+footer a img {
+  filter: invert(1);
+  width: 3%;
+  height: auto;
+  margin: 10px;
+}
+footer h5 {
+  color: #fff;
+  font-weight: 300;
+  font-size: x-small;
+}
+
+.event1 {
+  display: flex;
+  flex: 100%;
+  flex-direction: column;
+  margin: 100px;
+  align-items: center;
+  justify-content: center;
+}
+.event1 p {
+  max-width: 700px;
+  text-align: justify;
+}
+.event1 img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+}
+.event1 h3 {
+  margin: 20px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
