@@ -25,6 +25,7 @@ nav{
             a{
                 text-decoration: none;
                 color: $blanco;
+                font-weight: 200;
             }
         }
     }
@@ -67,7 +68,7 @@ nav{
             max-width: 700px;
             letter-spacing: 3px;
             text-shadow: 0px 3px 6px #00000080;
-            font-weight: 900;
+            font-weight: 800;
             font-size: xx-large;
         }
         h2{
@@ -209,20 +210,23 @@ footer{
     flex: 100%;
     flex-direction: column;
     margin: 100px;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     p{
-        max-width: 700px;
+        max-width: 80%;
         text-align: justify;  
+        margin-top: 20px;
     }
     img{
         margin-top: 30px;
         margin-bottom: 30px;
-        width: 400px;
+        width: 700px;
         height: auto;
         border-radius: 10px;
     }
     h3{
         margin: 20px;
+        align-self: flex-start;
+        margin-left: 10%;
     }
 }
