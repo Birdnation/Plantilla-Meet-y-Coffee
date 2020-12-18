@@ -212,6 +212,8 @@ footer h5 {
   max-width: 80%;
   text-align: justify;
   margin-top: 20px;
+  align-self: flex-start;
+  margin-left: 10%;
 }
 .event1 img {
   margin-top: 30px;
